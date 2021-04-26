@@ -1,0 +1,223 @@
+
+    .sample_container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    body {
+        background-image: url('city.jpg');
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        height: 100%;
+    }
+
+    input{
+        background: grey;
+        opacity: 35%;
+    }
+
+    sample_signup-button {
+        color: grey;
+    }
+
+#inputcorners {
+    border-radius: 5px;
+    background: white;
+  }
+
+  .sample_login-label{
+    margin: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  .sample_login-footer {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+
+  }
+
+  .sample_terms-of-service {
+      color: white;
+      opacity: none;
+      text-align: center;
+  }
+
+  .sample_tos:hover {
+    color: red;
+  }
+
+  #signup-button:hover{
+    background: #383;
+}
+  @media only screen and ( min-width: 1200px ) {
+ /* Increase the font size of the <h1> element */
+ .header h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    overflow:hidden;
+    text-align:center; position: relative; display: inline-block;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  a:hover {
+    color:red; 
+    text-decoration:none; 
+    cursor:pointer;  
+  }
+
+  .sample_nav-bar {
+      width: 100%;
+      height: 100px;
+      margin: auto;
+      margin-bottom: 55px;
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .sample-nav-bar_mobile-container {
+      display: none;
+  }
+
+  .sample_login-field {
+    height: auto;
+    width: 600px;  
+    display: flex;
+    flex-direction: column;
+
+}
+  .sample-content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 600px;
+        color: white;
+    }
+
+    .sample_login-label {
+        text-align: center;
+    }
+    .sample_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+        color: white;
+    }
+
+    .sample_about-text {
+        max-width: 350px;
+    }
+
+    .sample_about-text-large {
+        font-size: 50px;
+    }
+
+    .sample_login-input {
+        height: 40px;
+    }
+
+    .sample_signup-button {
+        color: grey;
+        height: 40px;
+    }
+  }
+
+  @media only screen and ( max-width: 1199px ) {
+    .sample-content-container {
+        display: flex;
+        justify-content: center;
+    }
+    .sample_nav-bar {
+        display: none;
+    }
+    
+    .sample_footer {
+        display: none;
+    }
+    
+    .sample-nav-bar_mobile-container {
+        height: auto;
+        color: white;
+        border-radius: 10px;
+    }
+          
+    .sample-nav-bar-topnav {
+        overflow: hidden;
+        position: relative;
+    }
+          
+    .sample-nav-bar-topnav #myLinks {
+        display: none;
+    }
+          
+    .sample-nav-bar-topnav a {
+        color: white;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+    }
+          
+    .sample-nav-bar-topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+          
+    .sample-nav-bar-topnav a:hover {
+        color: black;
+    }
+          
+    .active {
+        color: white;
+    }
+
+    .sample_about-text {
+        display: none;
+    }
+    .sample_login-field {
+        height: auto;
+        width: 600px;  
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sample_login-input {
+        height: 35px;
+    }
+
+    .sample_signup-button {
+        color: grey;
+        height: 40px;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+        
+    
+  }
+
+ 

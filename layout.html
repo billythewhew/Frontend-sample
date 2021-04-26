@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="sample_container">
+<!-- Desktop Navigation -->
+<nav class="sample_nav-bar">
+    <ul>
+        <a href="#home" class="nav-item">About</a>
+        <a href="#band" class="nav-item">Integrations</a>
+        <a href="#tour" class="nav-item">Pricing</a>
+        <a href="#contact" class="nav-item">Contacts</a>
+    </ul>
+  </nav>
+
+<!-- Mobile Header -->
+<div class="sample-nav-bar_mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="sample-nav-bar-topnav">
+      <a href="#" class="active">LogoHere</a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+
+    <div class="sample-content-container">
+
+        <div class="sample_about-text">
+            <div class="sample_about-text-large">Lorem ipsum dolor sit amet, nec id aeterno utroque civibus</div></br>
+                , sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.....</div>
+        <div class="sample_login-field">
+            <label class="sample_login-label">Sign Up For Free</label>
+            <input class="sample_login-input" id="inputcorners" type="text" placeholder="Name" name="name" required>
+            <input class="sample_login-input" id="inputcorners" type="text" placeholder="Email" name="email" required>
+            <input class="sample_login-input" id="inputcorners" type="password" placeholder="Password" name="psw" required>
+            <button class="sample_signup-button" id="signup-button inputcorners" type="submit">Sign Up</button>
+            <label class="sample_login-footer">by clicking "Sign Up" I agree with our</label>
+            <label class="sample_terms-of-service" id="sample_tos">Terms of Service</label>
+
+        </div>
+    </div>
+
+<!-- Desktop Footer -->
+<footer class="sample_footer">
+    <div>
+        2016 All Rights Reserved
+    </div>
+    <div>
+        <a>Contact</i></a>
+        <a href="#">Help</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+</footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+</div>
+
+</body>
+</html> 
